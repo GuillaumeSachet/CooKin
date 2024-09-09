@@ -2,6 +2,8 @@
 
 Autonomous agent that takes a city as input and gives a recipe in french based on the weather and the location.
 
+Using LangChain and basic LangGraph
+
 The weather API used is https://wttr.in/
 
 ## Docker

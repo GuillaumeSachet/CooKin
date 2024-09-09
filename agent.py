@@ -66,12 +66,12 @@ def create_agent() -> CompiledGraph:
     return agent_executor
 
 
-def generate_response(text) -> str:
+def generate_response(text: str) -> str:
     """
-    Use the agent singleton to generate a response to the given text.
+    Use the agent to generate a response to the given text.
 
     Args:
-        text: The text to generate a response for.
+        text (str): The text to generate a response for.
 
     Returns:
         The generated response as a string.
