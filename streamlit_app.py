@@ -58,4 +58,4 @@ with st.sidebar:
             st.rerun()
 
     # link to source code
-    st.markdown("[source code](https://github.com/GuillaumeSachet)")
+    st.markdown("[source code](https://github.com/GuillaumeSachet/CooKin)")
