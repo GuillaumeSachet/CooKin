@@ -9,7 +9,15 @@ The weather API used is https://wttr.in/
 pip install -r requirements
 ```
 
-## Running
+## Docker
+```
+docker build -t streamlit .
+docker run --name CooKin -p 8501:8501 streamlit
+```
+
+Then open your browser to http://localhost:8501/ and follow the steps.
+
+## Running without docker
 
 ### Without Streamlit
 
@@ -29,3 +37,4 @@ streamlit run streamlit_app.py
 ```
 
 Then open your browser to http://localhost:8501/ and follow the steps.
+
